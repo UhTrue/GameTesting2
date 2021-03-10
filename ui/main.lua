@@ -92,7 +92,7 @@ Collapse.MouseButton1Click:Connect(function()
 	Open:TweenPosition(constants.reveal, "Out", "Quad", 0.15)
 end)
 
-MessageBox.Show("Hi UhTrue!", "This is a private script", MessageType.OK)
+MessageBox.Show("Hi there!", "press ok rn", MessageType.OK)
 
 if PROTOSMASHER_LOADED ~= nil then
 	Interface.Parent = get_hidden_gui()
